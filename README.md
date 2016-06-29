@@ -1,2 +1,2 @@
-# Development of web-blog 
+# Development of web-blog.
 
