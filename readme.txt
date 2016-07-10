@@ -1,4 +1,4 @@
-This repository includes a sorce code to design a web blog. In this web blog users can create thier acount as an author and can create new blogs.
+This repository includes a source code to design a web blog. In this web blog users can create thier acount as an author and can create new blogs.
 *Users will have access to edit or delete their blogs and they can also see other's blog.
 *The List of Users in the app will display all the registered users and number of blogs written by them.
 *Users can also edit their username and password anytime.
