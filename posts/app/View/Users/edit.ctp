@@ -5,9 +5,6 @@
         <legend><?php echo ('Edit Your Account'); ?></legend>
         <?php echo $this->Form->input('username');
         echo $this->Form->input('password');
-        echo $this->Form->input('role', array(
-            'options' => array( 'author' => 'Author')
-        ));
     ?>
     </fieldset>
 <?php echo $this->Form->end('Submit'); ?>
