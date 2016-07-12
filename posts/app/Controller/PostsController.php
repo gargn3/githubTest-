@@ -77,7 +77,7 @@ class PostsController extends AppController{
 }
 
     public function isAuthorized($user) {
-    // Admin can delete and edit any blog whereas the author can only  delete and edit his own blog
+    // Admin can delete and edit any blog whereas the author can only  delete and edit his own blogs
     if (isset($user['role']) && $user['role'] === 'admin') {
         if (in_array($this->action, array('edit', 'delete','add')))
         {
