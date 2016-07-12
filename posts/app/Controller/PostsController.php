@@ -68,9 +68,9 @@ class PostsController extends AppController{
     }
 
     if ($this->Post->delete($id)) {
-        $this->Flash->success('The post %s has been deleted.', ($title));
+        $this->Flash->success( __('The post %s has been deleted.', ($title)));
     } else {
-        $this->Flash->error('The post %s has been deleted.', ($title));
+        $this->Flash->error( __('The post %s has been deleted.', ($title)));
     }
     
     return $this->redirect(array('action' => 'index'));
